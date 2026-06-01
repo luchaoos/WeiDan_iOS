@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap2DMap (4.1.1):
+    - AMapFoundation (~> 1.1)
+  - AMapFoundation (1.1.0)
+  - AMapLocation (2.1.0):
+    - AMapFoundation (~> 1.1)
+  - Masonry (1.0.1)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.9)
+  - MOBFoundation_IDFA (2.0.8)
+  - RongCloudIM/IMKit (2.8.12):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.12)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - ShareSDK3 (3.4.0):
+    - ShareSDK3/ShareSDK (= 3.4.0)
+  - ShareSDK3/ShareSDK (3.4.0)
+  - ShareSDK3/ShareSDKPlatforms/QQ (3.4.0)
+  - ShareSDK3/ShareSDKPlatforms/WeChat (3.4.0)
+  - ShareSDK3/ShareSDKUI (3.4.0)
+  - SMSSDK (2.0.5)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AMap2DMap
+  - AMapLocation (~> 2)
+  - Masonry
+  - MJExtension
+  - MJRefresh (~> 3.1.0)
+  - MOBFoundation_IDFA
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
+  - SDWebImage (~> 3.7.2)
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - SMSSDK
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap2DMap: e69e7a598718bef0addeea41240646f5a045c41c
+  AMapFoundation: 15db20567e6512422a086a01b42a88b145bc2500
+  AMapLocation: 343abc9ccd971ad27e459f38b5b082eabebf8792
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
+  MOBFoundation_IDFA: 7952e1ec75970779010ab17afe81c84fea990d8a
+  RongCloudIM: 13599772038afa20dc62aff70c620b9305e6ac96
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  ShareSDK3: df89140111729eae7a2bf06688372af969322a37
+  SMSSDK: 85375419fc969dc9398ce9922c5165c1e14ebe23
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: cde30ecbea7ebe032b4479a4836e662c1b9af7c1
+
+COCOAPODS: 1.2.1

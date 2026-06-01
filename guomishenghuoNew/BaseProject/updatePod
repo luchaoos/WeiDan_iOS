@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+pod update --verbose --no-repo-update
+

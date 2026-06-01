@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdviceSubmitViewController">
+            <connections>
+                <outlet property="txt_advicetext" destination="cJf-qg-eBR" id="05q-l4-vmb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJf-qg-eBR">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cJf-qg-eBR" secondAttribute="trailing" id="9VO-pX-Ccm"/>
+                <constraint firstItem="cJf-qg-eBR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="LQy-yO-Yva"/>
+                <constraint firstAttribute="bottom" secondItem="cJf-qg-eBR" secondAttribute="bottom" constant="54" id="NfE-Q9-Apc"/>
+                <constraint firstItem="cJf-qg-eBR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tQO-IJ-hfO"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="cJf-qg-eBR"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="9VO-pX-Ccm"/>
+                    <exclude reference="LQy-yO-Yva"/>
+                    <exclude reference="NfE-Q9-Apc"/>
+                    <exclude reference="tQO-IJ-hfO"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="cJf-qg-eBR"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="9VO-pX-Ccm"/>
+                    <include reference="LQy-yO-Yva"/>
+                    <include reference="NfE-Q9-Apc"/>
+                    <include reference="tQO-IJ-hfO"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopDetialViewController">
+            <connections>
+                <outlet property="cctableView" destination="o1R-cD-adv" id="1ud-oK-fmy"/>
+                <outlet property="lbl_shoppingCarNum" destination="8lO-1a-Abn" id="zgT-uk-WZT"/>
+                <outlet property="shoppingCarTableview" destination="srI-is-Nh2" id="1i3-da-gpP"/>
+                <outlet property="shoppingCarvVew" destination="mAq-aF-ubQ" id="hGO-o4-mqy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Vj-oG-5Hf">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8Vj-oG-5Hf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2p2-T7-dNJ"/>
+                <constraint firstAttribute="bottom" secondItem="8Vj-oG-5Hf" secondAttribute="bottom" id="CVO-mT-mDZ"/>
+                <constraint firstItem="8Vj-oG-5Hf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Iot-A8-ltx"/>
+                <constraint firstAttribute="trailing" secondItem="8Vj-oG-5Hf" secondAttribute="trailing" id="cXT-HE-pfm"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="8Vj-oG-5Hf"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="2p2-T7-dNJ"/>
+                    <exclude reference="CVO-mT-mDZ"/>
+                    <exclude reference="Iot-A8-ltx"/>
+                    <exclude reference="cXT-HE-pfm"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <exclude reference="8Vj-oG-5Hf"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="2p2-T7-dNJ"/>
+                    <include reference="CVO-mT-mDZ"/>
+                    <include reference="Iot-A8-ltx"/>
+                    <include reference="cXT-HE-pfm"/>
+                </mask>
+            </variation>
+        </view>
+        <view contentMode="scaleToFill" id="zdw-Qn-4xl">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="906" y="-257"/>
+        </view>
+        <view contentMode="scaleToFill" id="o1R-cD-adv" customClass="CCTableView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="707" y="-237"/>
+        </view>
+        <view contentMode="scaleToFill" id="mAq-aF-ubQ">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="srI-is-Nh2">
+                    <rect key="frame" x="0.0" y="44" width="240" height="84"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bM-SQ-Ail">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lO-1a-Abn">
+                            <rect key="frame" x="71" y="15" width="42" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="SVb-6x-BBb"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="8lO-1a-Abn"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="SVb-6x-BBb"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="8lO-1a-Abn"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="SVb-6x-BBb"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="srI-is-Nh2" secondAttribute="bottom" id="AIk-5T-Z9R"/>
+                <constraint firstAttribute="trailing" secondItem="5bM-SQ-Ail" secondAttribute="trailing" id="Cvd-Go-ovL"/>
+                <constraint firstItem="5bM-SQ-Ail" firstAttribute="leading" secondItem="mAq-aF-ubQ" secondAttribute="leading" id="EiO-fx-WMb"/>
+                <constraint firstAttribute="trailing" secondItem="srI-is-Nh2" secondAttribute="trailing" id="Koe-s1-url"/>
+                <constraint firstItem="srI-is-Nh2" firstAttribute="leading" secondItem="mAq-aF-ubQ" secondAttribute="leading" id="Uzb-Z6-2hK"/>
+                <constraint firstItem="5bM-SQ-Ail" firstAttribute="top" secondItem="mAq-aF-ubQ" secondAttribute="top" id="XL1-lN-6Kx"/>
+                <constraint firstItem="srI-is-Nh2" firstAttribute="top" secondItem="5bM-SQ-Ail" secondAttribute="bottom" id="ycK-nS-xyU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="srI-is-Nh2"/>
+                    <exclude reference="5bM-SQ-Ail"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Cvd-Go-ovL"/>
+                    <exclude reference="EiO-fx-WMb"/>
+                    <exclude reference="XL1-lN-6Kx"/>
+                    <exclude reference="AIk-5T-Z9R"/>
+                    <exclude reference="Koe-s1-url"/>
+                    <exclude reference="Uzb-Z6-2hK"/>
+                    <exclude reference="ycK-nS-xyU"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="srI-is-Nh2"/>
+                    <include reference="5bM-SQ-Ail"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Cvd-Go-ovL"/>
+                    <include reference="EiO-fx-WMb"/>
+                    <include reference="XL1-lN-6Kx"/>
+                    <include reference="AIk-5T-Z9R"/>
+                    <include reference="Koe-s1-url"/>
+                    <include reference="Uzb-Z6-2hK"/>
+                    <include reference="ycK-nS-xyU"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="876" y="-21"/>
+        </view>
+    </objects>
+</document>
